@@ -5,7 +5,7 @@
 //% block="Button Clicks"
 namespace buttonClicks {
 
-    enum AorB {
+    export enum AorB {
         A = 1,
         B = 2
     }
