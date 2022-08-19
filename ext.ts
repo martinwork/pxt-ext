@@ -136,7 +136,7 @@ namespace buttonClicks {
 
     //% blockId=onButtonUp block="on button |%NAME up "
     //% weight=25
-    export function onButtonUp(button: Button, body: Action) {
+    export function onButtonUp(button: AorB, body: Action) {
         let buttonHandlers = actions.get(button)
         buttonHandlers.set(BUTTONUP, body)
     }
