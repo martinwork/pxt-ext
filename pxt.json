@@ -2,8 +2,7 @@
     "name": "pxt-ext",
     "description": "",
     "dependencies": {
-        "core": "*",
-        "microphone": "*"
+        "core": "*"
     },
     "files": [
         "ext.ts",
