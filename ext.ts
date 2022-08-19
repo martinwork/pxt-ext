@@ -1,14 +1,13 @@
 
-enum AorB {
-    A = 1,
-    B = 2
-}
-
 //% color=#0000FF 
 //% icon="\uf0a7"
 //% block="Button Clicks"
 namespace buttonClicks {
 
+    export enum AorB {
+        A = 1,
+        B = 2
+    }
 
     // Button.A = 1, B = 2, AB = 3
     const SINGLECLICK = 0
